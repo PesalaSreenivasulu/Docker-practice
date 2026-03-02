@@ -1,5 +1,5 @@
-FROM Nginx
+FROM nginx
 MAINTAINER name sreenu
 LABEL practice session
-COPY /var/lib/jenkins/workspace/MyFirstJob /etc/nginx/
+COPY index.html /etc/nginx/
 EXPOSE 80
